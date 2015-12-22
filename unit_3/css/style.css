@@ -3,16 +3,10 @@
 }
 
 body {
-	background: url("http://i.imgur.com/mTyEsQf.jpg");
-	background-size: cover;
 	font-family: Arial, sans-serif;
 	text-align: center;
 }
 
 #slogan {
 	font-style: italic;
-}
-
-/*body {
-	background-size: cover;
 }
