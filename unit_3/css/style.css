@@ -2,10 +2,7 @@
 	border-radius: 50%;
 }
 
-body {
+div {
 	background-image: url("images/moodance1.jpg");
-}
-
-body{
 	background-size: cover;
 }
