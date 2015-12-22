@@ -7,6 +7,10 @@ body {
 	text-align: center;
 }
 
+#slogan {
+	font-style: italic;
+}
+
 /*body {
 	background-image: url("unit_3/images/moodance1.jpg");
 	background-size: cover;
