@@ -4,5 +4,8 @@
 
 body {
 	background-image: url("images/moodance1.jpg");
+}
+
+body{
 	background-size: cover;
 }
