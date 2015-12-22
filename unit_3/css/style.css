@@ -2,6 +2,11 @@
 	border-radius: 50%;
 }
 
+h1, p {
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
 /*body {
 	background-image: url("unit_3/images/moodance1.jpg");
 	background-size: cover;
