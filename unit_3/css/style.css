@@ -3,6 +3,8 @@
 }
 
 body {
+	background: url("moondance1.jpg");
+	background-size: cover;
 	font-family: Arial, sans-serif;
 	text-align: center;
 }
