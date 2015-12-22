@@ -2,7 +2,7 @@
 	border-radius: 50%;
 }
 
-h1, p {
+h1, p, ul, li, {
 	font-family: Arial, sans-serif;
 	text-align: center;
 }
