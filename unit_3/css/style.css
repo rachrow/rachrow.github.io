@@ -10,6 +10,11 @@ body {
 	color: #D3D3D3;
 }
 
+h1 {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
 #slogan {
 	font-style: italic;
 }
