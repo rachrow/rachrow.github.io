@@ -13,6 +13,8 @@ body {
 h1 {
 	background-color: #000000;
 	color: #FFFFFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 #footer {
