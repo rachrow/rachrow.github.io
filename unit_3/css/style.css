@@ -10,6 +10,16 @@ body {
 	color: #D3D3D3;
 }
 
+h1 {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+#footer {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
 #slogan {
 	font-style: italic;
 }
