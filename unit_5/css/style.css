@@ -106,11 +106,13 @@ footer {
 	padding: 1em 1em;
 	width: 30em;
 	margin: auto;
+	line-height: 1.4em;
 }
 
 #bodyintro {
 	width: 30em;
 	margin: auto;
+	line-height: 1.4em;
 }
 
 #slogan {
