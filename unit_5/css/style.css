@@ -1,4 +1,10 @@
-ul {
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+nav {
     list-style-type: none;
     margin: 0;
     padding: 10px;
@@ -8,9 +14,6 @@ ul {
 
 li {
     float: left;
-}
-
-li {
     display: block;
     color: white;
     text-align: center;
@@ -24,40 +27,65 @@ li:hover {
     background-color: #111;
 }
 
-
-
-
-/*Below this is the old CSS, above is testing the Nav Bar*/
-
-
 .img-circle {
 	border-radius: 50%;
+	width: 10em;
+	height: 10em;
 }
 
 body {
 	font-family: 'Libre Baskerville', serif;
 	text-align: center;
-	background: url("../images/moondance3.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
 	color: #000000;
 	background-color: white;
 }
 
-h1 {
-	color: #000000;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 2.5em;
-	text-transform: uppercase;
+#lander {
+	background: url("../images/moondance2.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 31em;
+	padding-top: 8em;
+	padding-bottom: 8em;
 }
 
-.bodyparagraph {
+header {
+	color: #000000;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 5.2em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	margin: 0em 0em;
+}
+
+/* Make Rachel Rowlands like the 1Q84 heading!! Really big and then the slogan below lines up with it*/
+
+hr {
+	border: none;
+	height: .2em;
+	background-color: black;
+	width: 59.5em;
+	margin: 2.5em auto 3em;
+}
+
+article, aside {
 	font-size: 16px;
 	color: black;
 	line-height: 1.2em;
-	margin-left: 4em;
-	margin-right: 4em; 
+	margin-left: 6em;
+	margin-right: 6em; 
 	text-align: justify;
+	padding: 0em 1em 0em 1em;
+}
+
+.sectionheading {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
+	text-transform: uppercase;
+	padding: 1em;
+}
+
+#bodyqualifications {
+	padding: 1em 1em;
 }
 
 li {
@@ -65,14 +93,20 @@ li {
 	line-height: 1.2em;
 }
 
-#footer {
+footer {
 	color: #000000;
 	text-align: center;
+	padding: .5em;
+	font-family: 'Quicksand', sans-serif;
 }
 
 #slogan {
+	font-family: 'Quicksand', sans-serif;
 	font-style: italic;
 	text-align: center;
+	font-size: 1.2em;
+	padding: 0em 2em 4em 2em;
+	color: black;
 }
 
 li {
