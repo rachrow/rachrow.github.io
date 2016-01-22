@@ -4,27 +4,38 @@
 	box-sizing: border-box;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Merriweather|Quicksand|Libre+Baskerville); 
+
 nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
+    background: black;
     overflow: hidden;
-    background-color: black;
+    width: 100%;
+    position: fixed;
 }
 
 li {
     float: left;
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    letter-spacing: .1em;
+    margin: 0;
+    padding: 20px 35px;
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+	line-height: 1.2em;
+}
+
+ul {
+	list-style: none;
+	width: 705px;
+	margin-left: 21%;
 }
 
 /* Change the link color to #111 (black) on hover */
 li:hover {
-    background-color: #111;
+    background-color: #gray;
 }
 
 .img-circle {
@@ -38,14 +49,6 @@ body {
 	text-align: center;
 	color: #000000;
 	background-color: white;
-}
-
-#lander {
-	background: url("../images/moondance2.jpg") no-repeat center center fixed;
-	background-size: cover;
-	height: 31em;
-	padding-top: 8em;
-	padding-bottom: 8em;
 }
 
 header {
@@ -67,7 +70,7 @@ hr {
 	margin: 2.5em auto 3em;
 }
 
-article, aside {
+section {
 	font-size: 16px;
 	color: black;
 	line-height: 1.2em;
@@ -77,6 +80,21 @@ article, aside {
 	padding: 0em 1em 0em 1em;
 }
 
+footer {
+	color: #000000;
+	text-align: center;
+	padding: .5em;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#lander {
+	background: url("../images/moondance2.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 31em;
+	padding-top: 8em;
+	padding-bottom: 8em;
+}
+
 .sectionheading {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 2em;
@@ -84,20 +102,15 @@ article, aside {
 	padding: 1em;
 }
 
-#bodyqualifications {
+#column1, #column2 {
 	padding: 1em 1em;
+	width: 30em;
+	margin: auto;
 }
 
-li {
-	font-size: 16px;
-	line-height: 1.2em;
-}
-
-footer {
-	color: #000000;
-	text-align: center;
-	padding: .5em;
-	font-family: 'Quicksand', sans-serif;
+#bodyintro {
+	width: 30em;
+	margin: auto;
 }
 
 #slogan {
@@ -107,8 +120,4 @@ footer {
 	font-size: 1.2em;
 	padding: 0em 2em 4em 2em;
 	color: black;
-}
-
-li {
-	list-style: none;
 }
