@@ -1,10 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather|Quicksand|Libre+Baskerville); 
+
 *{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Merriweather|Quicksand|Libre+Baskerville); 
 
 nav {
     background: black;
@@ -69,8 +69,6 @@ header {
 	margin: 0em 0em;
 }
 
-/* Make Rachel Rowlands like the 1Q84 heading!! Really big and then the slogan below lines up with it*/
-
 hr {
 	border: none;
 	height: .2em;
@@ -132,10 +130,19 @@ footer {
 	padding: 1em;
 }
 
-#column1, #column2 {
-	/*width: 30em;*/
+.twocolumn {
+	width: 60%
 	margin: auto;
+}
+
+/*Why isn't margin: auto working here? Won't go blue in sublime. Changing the width in .twocolumn isn't doing anything either, so I can't make the 2 columns the sizes I want*/
+
+.column {
+	float: left;
+	width: 50%;
 	line-height: 1.4em;
+	padding: 0 5%;
+	margin: auto;
 }
 
 #bodyintro {
