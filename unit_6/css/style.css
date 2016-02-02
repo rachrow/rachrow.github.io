@@ -13,44 +13,29 @@ nav {
     position: fixed;
 }
 
-.clearfix:after {
-visibility: hidden;
-display: block;
-font-size: 0;
-content: “ “;
-clear: both;
-height: 0;
-}
-
-
 li {
     float: left;
-    display: inline-block;
-    color: white;
     text-align: center;
     letter-spacing: .1em;
-    margin: 0;
-    padding: 20px 35px;
-    text-decoration: none;
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
-	line-height: 1.2em;
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 20px 35px;
 }
 
 ul {
 	list-style: none;
 	width: 705px;
-	margin-left: 21%;
+	margin: auto;
 }
 
-li:hover {
+li a:hover {
     background-color: gray;
-}
-
-.img-circle {
-	border-radius: 50%;
-	width: 10em;
-	height: 10em;
 }
 
 body {
@@ -80,11 +65,53 @@ hr {
 section {
 	font-size: 16px;
 	color: black;
-	line-height: 1.2em;
+	line-height: 1.5em;
 	margin-left: 6em;
 	margin-right: 6em; 
 	text-align: justify;
 	padding: 0em 1em 0em 1em;
+}
+
+footer {
+	color: #000000;
+	text-align: center;
+	padding: .5em;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 10em;
+	height: 10em;
+}
+
+.sectionheading {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
+	text-transform: uppercase;
+	padding: 1em;
+}
+
+.twocolumn {
+	width: 80%;
+	margin: auto;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	line-height: 1.4em;
+	padding: 0 5%;
+	margin: auto;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 #column1 {
@@ -99,50 +126,12 @@ section {
 	padding: 5%;
 }
 
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
-footer {
-	color: #000000;
-	text-align: center;
-	padding: .5em;
-	font-family: 'Quicksand', sans-serif;
-}
-
 #lander {
 	background: url("../images/moondance2.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 31em;
 	padding-top: 8em;
 	padding-bottom: 8em;
-}
-
-.sectionheading {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 2em;
-	text-transform: uppercase;
-	padding: 1em;
-}
-
-.twocolumn {
-	width: 60%
-	margin: auto;
-}
-
-/*Why isn't margin: auto working here? Won't go blue in sublime. Changing the width in .twocolumn isn't doing anything either, so I can't make the 2 columns the sizes I want*/
-
-.column {
-	float: left;
-	width: 50%;
-	line-height: 1.4em;
-	padding: 0 5%;
-	margin: auto;
 }
 
 #bodyintro {
@@ -155,7 +144,10 @@ footer {
 	font-family: 'Quicksand', sans-serif;
 	font-style: italic;
 	text-align: center;
+	line-height: 1.8em;
+	margin: auto;
 	font-size: 1.2em;
 	padding: 0em 2em 4em 2em;
 	color: black;
+	width: 65%;
 }
