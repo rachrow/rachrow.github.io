@@ -17,6 +17,16 @@ nav {
     position: fixed;
 }
 
+label {
+	background: black;
+	width: 100%;
+	text-align: center;
+	letter-spacing: .1em;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	padding: 20px 35px;
+}
+
 li {
     float: left;
     text-align: center;
@@ -166,12 +176,20 @@ footer {
 	padding-top: 2em;
 }
 
-/*Style label to match nav*/
+/*ISSUE when you click "about" it jumps down, but whole nav bar is still expanded*/
 
 @media screen and (max-width: 705px) {
-	li{ float: none;}
-	label {display: block;}
-	nav {display: none; }
-	ul {width: 100%}
+	li { 
+		float: none;
+	}
+	label {
+		display: block;
+	}
+	nav {
+		display: none; 
+	}
+	ul {
+		width: 100%
+	}
 	#toggle:checked + nav{display: block;}
 }
