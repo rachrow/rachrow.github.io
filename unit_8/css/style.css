@@ -6,6 +6,10 @@
 	box-sizing: border-box;
 }
 
+label {
+	display: none;
+}
+
 nav {
     background: black;
     overflow: hidden;
@@ -48,13 +52,20 @@ body {
 	font-size: 16px;
 }
 
-header {
+h1 {
 	color: #000000;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 5.2em;
 	letter-spacing: .1em;
 	text-transform: uppercase;
 	margin: 0em 0em;
+}
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
+	text-transform: uppercase;
+	padding: 1.2em;
 }
 
 hr {
@@ -69,10 +80,12 @@ section {
 	/*font-size: 16px;*/
 	color: black;
 	line-height: 1.5em;
-	margin-left: 6em;
-	margin-right: 6em; 
-	text-align: justify;
+	margin: auto;
 	padding: 0em 1em 0em 1em;
+}
+
+section p {
+	text-align: justify;
 }
 
 footer {
@@ -86,13 +99,6 @@ footer {
 	border-radius: 50%;
 	width: 10em;
 	height: 10em;
-}
-
-.sectionheading {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 2em;
-	text-transform: uppercase;
-	padding: 1.2em;
 }
 
 .twocolumn {
@@ -117,6 +123,10 @@ footer {
     height: 0;
 }
 
+#toggle {
+	display: none;
+}
+
 #column1 {
 	float: left;
 	width: 40%;
@@ -137,17 +147,7 @@ footer {
 	padding-bottom: 8em;
 }
 
-#bodyintrotitle {
-	padding-top: 2em;
-}
-
-#bodyintro {
-	width: 30em;
-	margin: auto;
-	line-height: 1.4em;
-}
-
-#slogan {
+#lander p {
 	font-family: 'Quicksand', sans-serif;
 	font-style: italic;
 	text-align: center;
@@ -157,4 +157,21 @@ footer {
 	padding: 0em 2em 4em 2em;
 	color: black;
 	width: 65%;
+}
+
+#bodyintro {
+	width: 30em;
+	margin: auto;
+	line-height: 1.4em;
+	padding-top: 2em;
+}
+
+/*Style label to match nav*/
+
+@media screen and (max-width: 705px) {
+	li{ float: none;}
+	label {display: block;}
+	nav {display: none; }
+	ul {width: 100%}
+	#toggle:checked + nav{display: block;}
 }
