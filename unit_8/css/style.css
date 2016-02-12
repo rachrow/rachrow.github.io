@@ -18,7 +18,7 @@ li {
     text-align: center;
     letter-spacing: .1em;
     font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
+    /*font-size: 16px;*/
 }
 
 li a {
@@ -27,6 +27,8 @@ li a {
 	color: white;
 	padding: 20px 35px;
 }
+
+/*What would I change these px to? just percents for both? Use inspector*/
 
 ul {
 	list-style: none;
@@ -43,6 +45,7 @@ body {
 	text-align: center;
 	color: #000000;
 	background-color: white;
+	font-size: 16px;
 }
 
 header {
@@ -63,7 +66,7 @@ hr {
 }
 
 section {
-	font-size: 16px;
+	/*font-size: 16px;*/
 	color: black;
 	line-height: 1.5em;
 	margin-left: 6em;
