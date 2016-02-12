@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather|Quicksand|Libre+Baskerville); 
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+nav {
+    background: black;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+}
+
+li {
+    float: left;
+    text-align: center;
+    letter-spacing: .1em;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 20px 35px;
+}
+
+ul {
+	list-style: none;
+	width: 705px;
+	margin: auto;
+}
+
+li a:hover {
+    background-color: gray;
+}
+
+body {
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+	color: #000000;
+	background-color: white;
+}
+
+header {
+	color: #000000;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 5.2em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	margin: 0em 0em;
+}
+
+hr {
+	border: none;
+	height: .2em;
+	background-color: black;
+	width: 59.5em;
+	margin: 2.5em auto 3em;
+}
+
+section {
+	font-size: 16px;
+	color: black;
+	line-height: 1.5em;
+	margin-left: 6em;
+	margin-right: 6em; 
+	text-align: justify;
+	padding: 0em 1em 0em 1em;
+}
+
+footer {
+	color: #000000;
+	text-align: center;
+	padding: .5em;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 10em;
+	height: 10em;
+}
+
+.sectionheading {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
+	text-transform: uppercase;
+	padding: 1.2em;
+}
+
+.twocolumn {
+	width: 80%;
+	margin: auto;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	line-height: 1.4em;
+	padding: 0 5%;
+	margin: auto;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#column1 {
+	float: left;
+	width: 40%;
+	padding: 5%;
+}
+
+#column2 {
+	float: right;
+	width: 40%;
+	padding: 5%;
+}
+
+#lander {
+	background: url("../images/moondance2.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 31em;
+	padding-top: 8em;
+	padding-bottom: 8em;
+}
+
+#bodyintrotitle {
+	padding-top: 2em;
+}
+
+#bodyintro {
+	width: 30em;
+	margin: auto;
+	line-height: 1.4em;
+}
+
+#slogan {
+	font-family: 'Quicksand', sans-serif;
+	font-style: italic;
+	text-align: center;
+	line-height: 1.8em;
+	margin: auto;
+	font-size: 1.2em;
+	padding: 0em 2em 4em 2em;
+	color: black;
+	width: 65%;
+}
