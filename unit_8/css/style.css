@@ -166,6 +166,12 @@ footer {
 
 /*ISSUE when you click "about" it jumps down, but whole nav bar is still expanded*/
 
+@media screen and (max-width: 952px) {
+	hr {
+		width: 100%;
+	}
+}
+
 @media screen and (max-width: 705px) {
 	li { 
 		float: none;
@@ -177,10 +183,15 @@ footer {
 
 	nav {
 		display: none; 
+		position: static;
+	}
+
+	nav li:nth-of-type(2) {
+		display: none;
 	}
 
 	ul {
-		width: 30em;
+		width: 100%;
 	}
 
 	h1 {
@@ -189,7 +200,7 @@ footer {
 	}
 
 	h2 + p {
-		width: 89%;
+		width: 100%;
 		margin: auto;
 	}
 
@@ -197,11 +208,15 @@ footer {
 		margin-bottom: 1.5em;
 	}
 
+/*	.twocolumn{
+		padding:0 1em;
+	}*/
+
 	.column {
 		float: none;
-		width: 90%;
+		width: 100%;
 		line-height: 1.4em;
-		padding-bottom: 1.5em;
+		padding: 0 0 1.5em;
 	}
 
 	#slogan {
@@ -209,4 +224,8 @@ footer {
 	}
 
 	#toggle:checked + nav{display: block;}
+
+	#bodyintro{
+		width: 80%;
+	}
 }
