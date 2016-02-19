@@ -137,18 +137,6 @@ footer {
 	display: none;
 }
 
-#column1 {
-	float: left;
-	width: 40%;
-	padding: 5%;
-}
-
-#column2 {
-	float: right;
-	width: 40%;
-	padding: 5%;
-}
-
 #lander {
 	background: url("../images/moondance2.jpg") no-repeat center center fixed;
 	background-size: cover;
@@ -182,14 +170,43 @@ footer {
 	li { 
 		float: none;
 	}
+
 	label {
 		display: block;
 	}
+
 	nav {
 		display: none; 
 	}
+
 	ul {
-		width: 100%
+		width: 30em;
 	}
+
+	h1 {
+		font-size: 4em;
+		margin: 0em;
+	}
+
+	h2 + p {
+		width: 89%;
+		margin: auto;
+	}
+
+	hr {
+		margin-bottom: 1.5em;
+	}
+
+	.column {
+		float: none;
+		width: 90%;
+		line-height: 1.4em;
+		padding-bottom: 1.5em;
+	}
+
+	#slogan {
+		font-size: .85em;
+	}
+
 	#toggle:checked + nav{display: block;}
 }
