@@ -208,10 +208,6 @@ footer {
 		margin-bottom: 1.5em;
 	}
 
-/*	.twocolumn{
-		padding:0 1em;
-	}*/
-
 	.column {
 		float: none;
 		width: 100%;
@@ -229,3 +225,25 @@ footer {
 		width: 80%;
 	}
 }
+
+@media screen and (max-width: 450px) {
+	h1 {
+		font-size: 2.5em;
+		line-height: 1.2em;
+	}
+
+	h2 {
+		line-height: 1.2em;
+		font-size: 1.5em;
+	}
+
+	#slogan {
+		font-size: .8em;
+	}
+}
+
+
+
+
+
+
