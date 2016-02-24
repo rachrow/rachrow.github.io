@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather|Quicksand|Libre+Baskerville); 
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+label {
+	display: none;
+}
+
+nav {
+    background: black;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+}
+
+label {
+	background: black;
+	width: 100%;
+	text-align: center;
+	letter-spacing: .1em;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	padding: 20px 35px;
+}
+
+li {
+    float: left;
+    text-align: center;
+    letter-spacing: .1em;
+    font-family: 'Quicksand', sans-serif;
+    /*font-size: 16px;*/
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 20px 35px;
+}
+
+/*What would I change these px to? just percents for both? Use inspector*/
+
+ul {
+	list-style: none;
+	width: 705px;
+	margin: auto;
+}
+
+li a:hover {
+    background-color: gray;
+}
+
+body {
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+	color: #000000;
+	background-color: white;
+	font-size: 16px;
+}
+
+h1 {
+	color: #000000;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 5.2em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	margin: 0 0 0 0;
+}
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
+	text-transform: uppercase;
+	padding: 1.2em;
+}
+
+hr {
+	border: none;
+	height: .2em;
+	background-color: black;
+	width: 59.5em;
+	margin: 2.5em auto 3em;
+}
+
+section {
+	/*font-size: 16px;*/
+	color: black;
+	line-height: 1.5em;
+	margin: auto;
+	padding: 0em 1em 0em 1em;
+}
+
+section p {
+	text-align: justify;
+}
+
+footer {
+	color: #000000;
+	text-align: center;
+	padding: .5em;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 10em;
+	height: 10em;
+}
+
+.twocolumn {
+	width: 80%;
+	margin: auto;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	line-height: 1.4em;
+	padding: 0 5%;
+	margin: auto;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#toggle {
+	display: none;
+}
+
+#lander {
+	background: url("../images/moondance2.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 31em;
+	padding-top: 8em;
+	padding-bottom: 8em;
+}
+
+#lander p {
+	font-family: 'Quicksand', sans-serif;
+	font-style: italic;
+	text-align: center;
+	line-height: 1.8em;
+	margin: auto;
+	font-size: 1.2em;
+	padding: 0em 2em 4em 2em;
+	color: black;
+	width: 65%;
+}
+
+#bodyintro {
+	width: 30em;
+	margin: auto;
+	line-height: 1.4em;
+	padding-top: 2em;
+}
+
+/*ISSUE when you click "about" it jumps down, but whole nav bar is still expanded*/
+
+@media screen and (max-width: 952px) {
+	hr {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 705px) {
+	li { 
+		float: none;
+	}
+
+	label {
+		display: block;
+	}
+
+	nav {
+		display: none; 
+		position: static;
+	}
+
+	nav li:nth-of-type(2) {
+		display: none;
+	}
+
+	ul {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 4em;
+		margin: 0em;
+	}
+
+	h2 + p {
+		width: 100%;
+		margin: auto;
+	}
+
+	hr {
+		margin-bottom: 1.5em;
+	}
+
+	.column {
+		float: none;
+		width: 100%;
+		line-height: 1.4em;
+		padding: 0 0 1.5em;
+	}
+
+	#slogan {
+		font-size: .85em;
+	}
+
+	#toggle:checked + nav{display: block;}
+
+	#bodyintro{
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	h1 {
+		font-size: 2.5em;
+		line-height: 1.2em;
+	}
+
+	h2 {
+		line-height: 1.2em;
+		font-size: 1.5em;
+	}
+
+	#slogan {
+		font-size: .8em;
+	}
+}
+
+
+
+
+
+
