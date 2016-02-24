@@ -76,14 +76,14 @@ h2 {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 2em;
 	text-transform: uppercase;
-	padding: 1.1em;
+	padding: 1em;
 }
 
 h3 {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1.3em;
 	text-transform: uppercase;
-	padding: 1.1em;
+	padding: 1em;
 }
 
 hr {
@@ -92,10 +92,6 @@ hr {
 	background-color: black;
 	width: 24em;
 	margin: 2.2em auto 3em;
-}
-
-br {
-	padding-bottom: 1.5em;
 }
 
 section {
@@ -117,6 +113,10 @@ footer {
 	text-align: center;
 	padding: .5em;
 	font-family: 'Quicksand', sans-serif;
+}
+
+p + p {
+	padding-top: .3em;
 }
 
 .img-circle {
