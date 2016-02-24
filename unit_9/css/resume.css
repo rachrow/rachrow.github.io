@@ -195,6 +195,10 @@ p + p {
 		display: block;
 	}
 
+	section {
+		width: 80%;
+	}
+
 	nav {
 		display: none; 
 		position: static;
@@ -213,6 +217,10 @@ p + p {
 		margin: 0em;
 	}
 
+	h2 {
+		line-height: 1.1em;
+	}
+
 	h2 + p {
 		width: 100%;
 		margin: auto;
@@ -229,14 +237,12 @@ p + p {
 		padding: 0 0 1.5em;
 	}
 
-	#slogan {
-		font-size: .85em;
-	}
-
 	#toggle:checked + nav{display: block;}
+}
 
-	#bodyintro{
-		width: 80%;
+@media screen and (max-width: 400px) {
+	#contactinfo {
+		font-size: .8em;
 	}
 }
 
@@ -253,6 +259,17 @@ p + p {
 
 	#slogan {
 		font-size: .8em;
+	}
+
+	h3 {
+		font-size: 1.1em;
+	}
+
+}
+
+@media screen and (max-width: 325px) {
+	#contactinfo {
+		font-size: .7em;
 	}
 }
 
