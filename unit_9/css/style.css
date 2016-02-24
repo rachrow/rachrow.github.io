@@ -42,8 +42,6 @@ li a {
 	padding: 20px 35px;
 }
 
-/*What would I change these px to? just percents for both? Use inspector*/
-
 ul {
 	list-style: none;
 	width: 705px;
@@ -52,6 +50,10 @@ ul {
 
 li a:hover {
     background-color: gray;
+}
+
+a {
+	color: black;
 }
 
 body {
@@ -87,7 +89,6 @@ hr {
 }
 
 section {
-	/*font-size: 16px;*/
 	color: black;
 	line-height: 1.5em;
 	margin: auto;
@@ -101,7 +102,7 @@ section p {
 footer {
 	color: #000000;
 	text-align: center;
-	padding: .5em;
+	padding: .8em;
 	font-family: 'Quicksand', sans-serif;
 }
 
@@ -163,8 +164,6 @@ footer {
 	line-height: 1.4em;
 	padding-top: 2em;
 }
-
-/*ISSUE when you click "about" it jumps down, but whole nav bar is still expanded*/
 
 @media screen and (max-width: 952px) {
 	hr {
