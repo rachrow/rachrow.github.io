@@ -178,8 +178,6 @@ p + p {
 	padding-top: 2em;
 }
 
-/*ISSUE when you click "about" it jumps down, but whole nav bar is still expanded*/
-
 @media screen and (max-width: 952px) {
 	hr {
 		width: 100%;
@@ -194,6 +192,8 @@ p + p {
 	label {
 		display: block;
 	}
+
+	/*Text looks weird on a small screen when justified?*/
 
 	section {
 		width: 80%;
