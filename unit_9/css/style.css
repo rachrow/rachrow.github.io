@@ -214,13 +214,13 @@ p + .resumeh2 {
 }
 
 #emailcol {
-	padding-top: 4em;
+	padding-top: 2.8em;
 	float: left;
 	width: 50%;
 }
 
 #linkedincol {
-	padding-top: 4em;
+	padding-top: 2.8em;
 	float: left;
 	width: 50%;
 }
@@ -245,6 +245,14 @@ p + .resumeh2 {
 	background-color: black;
 	width: 24em;
 	margin: 2.2em auto 3em;
+}
+
+#connecthr {
+	border: none;
+	height: .2em;
+	background-color: black;
+	width: 29.5em;
+	margin: 2.2em auto 1em;
 }
 
 @media screen and (max-width: 952px) {
