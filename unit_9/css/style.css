@@ -106,6 +106,10 @@ footer {
 	font-family: 'Quicksand', sans-serif;
 }
 
+h2 a {
+	text-decoration: none;
+}
+
 .img-circle {
 	border-radius: 50%;
 	width: 10em;
@@ -132,6 +136,10 @@ footer {
     content: " ";
     clear: both;
     height: 0;
+}
+
+.imgcontainer {
+	max-width: 100%;
 }
 
 #toggle {
@@ -163,6 +171,22 @@ footer {
 	margin: auto;
 	line-height: 1.4em;
 	padding-top: 2em;
+}
+
+#connecthead {
+	padding-top: 1.5em;
+}
+
+#emailcol {
+	padding-top: 4em;
+	float: left;
+	width: 50%;
+}
+
+#linkedincol {
+	padding-top: 4em;
+	float: left;
+	width: 50%;
 }
 
 @media screen and (max-width: 952px) {
@@ -207,12 +231,24 @@ footer {
 		margin-bottom: 1.5em;
 	}
 
+	.connectimg {
+		height: auto;
+		width: 100%;
+	}
+
+	.gmailimg {
+		height: auto;
+		width: 100%;
+	}
+
 	.column {
 		float: none;
 		width: 100%;
 		line-height: 1.4em;
 		padding: 0 0 1.5em;
 	}
+
+	/*The text at the bottom isn't the same, doesn't line up, not sure how to fix? The images are cropped the same size!*/
 
 	#slogan {
 		font-size: .85em;
