@@ -239,9 +239,21 @@ p + .resumeh2 {
 	line-height: 1.8em;
 }
 
+#resumehr {
+	border: none;
+	height: .2em;
+	background-color: black;
+	width: 24em;
+	margin: 2.2em auto 3em;
+}
+
 @media screen and (max-width: 952px) {
 	hr {
 		width: 100%;
+	}
+
+	#resumehr {
+		width: 100%
 	}
 }
 
