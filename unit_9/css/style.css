@@ -263,6 +263,10 @@ p + .resumeh2 {
 	#resumehr {
 		width: 100%
 	}
+
+	#connecthr {
+		width: 100%
+	}
 }
 
 @media screen and (max-width: 705px) {
