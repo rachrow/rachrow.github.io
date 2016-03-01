@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Merriweather|Quicksand|Libre+Baskerville); 
+/*/*/*/*@import url(https://fonts.googleapis.com/css?family=Merriweather|Quicksand|Libre+Baskerville); 
 
 *{
 	margin:0;
@@ -212,8 +212,6 @@ h2 + h3 {
 		display: block;
 	}
 
-	/*Text looks weird on a small screen when justified?*/
-
 	section {
 		width: 80%;
 	}
@@ -297,3 +295,4 @@ h2 + h3 {
 
 
 
+*/*/*/*/

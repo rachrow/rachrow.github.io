@@ -110,6 +110,14 @@ h2 a {
 	text-decoration: none;
 }
 
+p + p {
+	padding-top: .5em;
+}
+
+p + .resumeh2 {
+	margin-top: 1.5em;
+}
+
 .img-circle {
 	border-radius: 50%;
 	width: 10em;
@@ -140,6 +148,34 @@ h2 a {
 
 .imgcontainer {
 	max-width: 100%;
+}
+
+.resumeh2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
+	text-transform: uppercase;
+	padding: 1em;
+}
+
+.resumeh3 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	padding: 1em 0;
+	margin-top: 1.6em;
+	text-align: left;
+}
+
+.resumeh3 + p {
+	font-style: italic;
+}
+
+.resumeh2 + .resumeh3 {
+	margin-top: 0;
+}
+
+.description {
+	font-style: normal;
 }
 
 #toggle {
@@ -173,7 +209,7 @@ h2 a {
 	padding-top: 2em;
 }
 
-#connecthead {
+#header2 {
 	padding-top: 1.5em;
 }
 
@@ -187,6 +223,20 @@ h2 a {
 	padding-top: 4em;
 	float: left;
 	width: 50%;
+}
+
+#resumecontainer {
+	color: black;
+	line-height: 1.6em;
+	margin: auto;
+	padding: 0em 0em 0em 1em;
+	width: 60%;
+	margin: auto;
+}
+
+#resumecontainer p {
+	text-align: left;
+	line-height: 1.8em;
 }
 
 @media screen and (max-width: 952px) {
@@ -248,6 +298,15 @@ h2 a {
 		padding: 0 0 1.5em;
 	}
 
+	.resumeh2 {
+		line-height: 1.1em;
+	}
+
+	.resumeh2 + p {
+		width: 100%;
+		margin: auto;
+	}
+
 	/*The text at the bottom isn't the same, doesn't line up, not sure how to fix? The images are cropped the same size!*/
 
 	#slogan {
@@ -259,6 +318,11 @@ h2 a {
 	#bodyintro{
 		width: 80%;
 	}
+
+	#resumecontainer {
+		width: 80%;
+	}
+
 }
 
 @media screen and (max-width: 450px) {
@@ -272,11 +336,25 @@ h2 a {
 		font-size: 1.5em;
 	}
 
+	.resumeh3 {
+		font-size: 1.1em;
+	}
+
 	#slogan {
 		font-size: .8em;
 	}
+
+	#resumecontainer {
+		font-size: .9em;
+	}
+
 }
 
+@media screen and (max-width: 400px) {
+	#contactinfo {
+		font-size: .8em;
+	}
+}
 
 
 
