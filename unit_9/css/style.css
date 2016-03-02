@@ -178,6 +178,58 @@ p + .resumeh2 {
 	font-style: normal;
 }
 
+.pastworkp1 {
+	color: black;
+	line-height: 1.5em;
+	margin: auto;
+	text-align: left;
+}
+
+.pwtextcontainer {
+	width: 50%;
+	margin: auto;
+	float: left;
+	padding: 2%;
+}
+
+.pastworkimg {
+	float: left;
+	width: 35%;
+	margin: auto;
+	padding: 7% 0 1%;
+	max-height: 400px;
+	width: auto;
+}
+
+/*I canNOT get the images to resize a bit, then stop at a max px number. How to do that? I can get them to resize and streth or not move at all*/
+
+/*Everything is pushed left? Can't figure out how to center it, margin: auto isn't working for some reason*/
+
+.pastwork3col {
+	color: black;
+	line-height: 1.5em;
+	margin: auto;
+	text-align: left;
+}
+
+.pw3colwrapper {
+	width: 95%;
+	margin: auto;
+}
+
+.pw3column {
+	width: 30%;
+	float: left;
+	margin: auto;
+	padding: 0 1% 1% 1%;
+}
+
+#pwimagecontainer {
+	float: left;
+	width: 35%;
+	margin: auto;
+}
+
 #toggle {
 	display: none;
 }
@@ -255,6 +307,23 @@ p + .resumeh2 {
 	margin: 2.2em auto 1em;
 }
 
+#pastworkhr {
+	border: none;
+	height: .2em;
+	background-color: black;
+	width: 36em;
+	margin: 2.2em auto 1em;
+}
+
+#pwwrapper {
+	width: 85%;
+	margin: auto;
+}
+
+#pwrowone {
+	margin-bottom: 3.5em;
+}
+
 @media screen and (max-width: 952px) {
 	hr {
 		width: 100%;
@@ -265,6 +334,10 @@ p + .resumeh2 {
 	}
 
 	#connecthr {
+		width: 100%
+	}
+
+	#pastworkhr {
 		width: 100%
 	}
 }
