@@ -194,9 +194,9 @@ p + .resumeh2 {
 
 .pastworkimg {
 	float: left;
-	width: 35%;
+	width: 30%;
 	margin: auto;
-	padding: 7% 0 1%;
+	padding: 7% 0 0%;
 	max-height: 400px;
 	width: auto;
 }
@@ -213,7 +213,7 @@ p + .resumeh2 {
 }
 
 .pw3colwrapper {
-	width: 95%;
+	width: 90%;
 	margin: auto;
 }
 
@@ -222,6 +222,10 @@ p + .resumeh2 {
 	float: left;
 	margin: auto;
 	padding: 0 1% 1% 1%;
+}
+
+.pw3colimage {
+	padding: 1% 2%;
 }
 
 #pwimagecontainer {
@@ -322,6 +326,7 @@ p + .resumeh2 {
 
 #pwrowone {
 	margin-bottom: 3.5em;
+	margin: auto;
 }
 
 @media screen and (max-width: 952px) {
