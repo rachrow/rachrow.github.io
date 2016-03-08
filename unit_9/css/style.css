@@ -178,54 +178,56 @@ p + .resumeh2 {
 	font-style: normal;
 }
 
-.pastworkp1 {
+.colbig p {
 	color: black;
 	line-height: 1.5em;
 	margin: auto;
 	text-align: left;
 }
 
-.pwtextcontainer {
-	width: 50%;
-	margin: auto;
+.colbig {
+	width: 65%;
 	float: left;
 	padding: 2%;
+	height: 400px;
+	line-height: 1.6em;
 }
 
-.pastworkimg {
+.colsmall {
 	float: left;
-	width: 30%;
-	margin: auto;
+	width: 35%;
 	padding: 7% 0 0%;
-	max-height: 400px;
-	width: auto;
+	height: 400px;
+	overflow: hidden;
+}
+
+.colsmall img {
+	width: 100%;
 }
 
 /*I canNOT get the images to resize a bit, then stop at a max px number. How to do that? I can get them to resize and streth or not move at all*/
 
 /*Everything is pushed left? Can't figure out how to center it, margin: auto isn't working for some reason*/
 
-.pastwork3col {
+.col3 p {
 	color: black;
-	line-height: 1.5em;
+	line-height: 1.6em;
 	margin: auto;
 	text-align: left;
 }
 
-.pw3colwrapper {
-	width: 90%;
-	margin: auto;
-}
-
-.pw3column {
-	width: 30%;
+.col3 {
+	width: 33.33%;
 	float: left;
-	margin: auto;
-	padding: 0 1% 1% 1%;
+	padding: 1%;
 }
 
-.pw3colimage {
-	padding: 1% 2%;
+.col3 img {
+	width: 100%;
+}
+
+.hidimg {
+	display: none;
 }
 
 #pwimagecontainer {
@@ -324,10 +326,10 @@ p + .resumeh2 {
 	margin: auto;
 }
 
-#pwrowone {
+/*#pwrowone {
 	margin-bottom: 3.5em;
 	margin: auto;
-}
+}*/
 
 @media screen and (max-width: 952px) {
 	hr {
@@ -345,6 +347,31 @@ p + .resumeh2 {
 	#pastworkhr {
 		width: 100%
 	}
+
+	.colbig, .colsmall {
+		float: none;
+		margin: auto;
+		width: 85%;
+	}
+
+	.colbig {
+		height: auto;
+	}
+
+	.colsmall {
+		display: none;
+	}
+
+	.col3 {
+		float: none;
+		margin: auto;
+		width: 85%;
+	}
+
+	.pw3colimage {
+		display: none;
+	}
+
 }
 
 @media screen and (max-width: 705px) {
@@ -408,8 +435,6 @@ p + .resumeh2 {
 		width: 100%;
 		margin: auto;
 	}
-
-	/*The text at the bottom isn't the same, doesn't line up, not sure how to fix? The images are cropped the same size!*/
 
 	#slogan {
 		font-size: .85em;
